@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+.home{
+    background: rgba(0, 0, 0, 0.2) url('d8.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-blend-mode:darken;
+}
+.navbar{
+    display:flex;
+    height: 150px;
+    background: transparent;
+    align-items: center;
+    justify-content: center;
+}
+.blankclass{
+    width: 60%;
+}
+.blankclass img{
+    width:10%;
+    border-radius: 200px;
+}
+.navlist{
+    display: flex;
+    align-items: center;
+    justify-content:right ;    
+}
+.navlist li{
+    list-style: none;
+    text-align: right;
+}
+.navlist li a{
+    text-decoration: none;
+    font-size: 25px;
+    margin: 0 35px;
+    color: white;
+}
+.navlist li a:hover{
+    color:turquoise;
+    cursor: pointer;
+}
+.about-heading{
+    text-align: center;
+    font-size: 50px;
+    font-family:'Crimson Text', serif;
+}
+.about-para{
+    width: 80%;
+    margin: auto;
+    font-size: 22px;
+    line-height: 1.5em;
+}
+.second-team{
+    width:80%;
+    margin:auto;
+    display:flex;
+    flex-direction: row;
+    
+}
+.team:hover{
+    
+}
+.card{
+    text-align: center;
+    width: 25%;
+    transition: all 0.5s ease-in-out;
+}
+.card:hover{
+    width:28%;
+    
+}
+.up img{
+    width:90%;
+    border-radius: 200px;
+}
+.down p{
+    font-size: 18px;
+}
